@@ -1,0 +1,68 @@
+@font-face{
+    font-family:yolo;
+    src:url(../fonts/yolo.ttf);
+}
+body{
+    font-size:1em;
+    font-family:yolo;
+    cursor:default;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+header{
+    margin-bottom:5px;
+}
+header a{
+    text-decoration:none;
+    color:black;
+}
+.title{
+    font-size:1.5em;
+}
+section,nav{
+    font-size:0.8em;
+    margin-bottom:10px;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:block;
+    float:left;
+    margin-right:10px;
+}
+.aInput{
+    -webkit-appearance:none;
+    border:1px solid black;
+    border-radius:0;
+    margin-bottom:5px;
+    margin-right:5px;
+}
+.button{
+    border:1px solid black;
+    padding:0.5px;
+    display:table;
+    cursor:pointer;
+}
+hr{
+    border:0px none;
+    height: 1px;
+    background:black;
+}
+#chat,#users{
+    border:1px solid black;
+    padding:10px;
+}
+#settings{
+
+}
+footer{
+    clear:both;
+    position:fixed;
+    bottom:0;
+    width:90%;
+    margin-bottom:10px;
+    font-size:0.7em;
+}
